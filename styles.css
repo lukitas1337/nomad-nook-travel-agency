@@ -32,12 +32,20 @@ html {
   justify-content: space-between;
 }
 
+
 .header__nav .header__nav__link {
   text-decoration: none;
   color: grey;
   background-color: white;
   padding: 1rem 2rem;
 }
+
+.section6 {
+    background: #C4C4C4;
+    height: 73.4rem;
+}
+
+
 .footer {
   background-color: #ededed;
   height: 58rem;
