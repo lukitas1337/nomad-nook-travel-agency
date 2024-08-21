@@ -43,7 +43,7 @@ html {
 }
 
 /* section 5 */
-.section5 {
+.section3 {
   height: 55rem;
   display: flex;
   flex-direction: column;
@@ -53,11 +53,11 @@ html {
   background-color: grey;
 }
 
-.section5__header {
+.section3__header {
   font-size: 2.4rem;
 }
 
-.section5__video {
+.section3__video {
   width: 50%;
   height: 35rem;
   background: white;
