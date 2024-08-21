@@ -127,7 +127,40 @@ html {
 /* section4 */
 
 .section4 {
-  background-color: #c4c4c4;
+
+    background-color: #C4C4C4;
+    height: 80.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.section4-text {
+    margin-bottom: 5rem;
+}
+
+.section4-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section4-item {
+    width: 16rem;
+}
+
+.section4-item-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+
 }
 
 /* section5 */
@@ -191,10 +224,14 @@ html {
 }
 
 .price-card {
-  background-color: #ffffff;
-  height: 39.6rem;
-  max-height: 39.6rem;
-  width: 29.1rem;
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 39.6rem;
+    max-height: 39.6rem;
+    width: 29.1rem;
+
 }
 
 .price-tag {
@@ -205,11 +242,14 @@ html {
   list-style: none;
 }
 
-/* best way to align the buttons at the bottom of .price-card? */
 .price-card-button {
+
   width: 90%;
-  padding: 1rem 0;
-  border: none;
+
+    padding: 1rem 0;
+    border: none;
+    margin: auto 2rem 2rem;
+
 }
 
 /* footer */
