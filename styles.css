@@ -7,6 +7,8 @@
 html {
   font-size: 62.5%;
 }
+
+/* header */
 .header {
   height: 14rem;
   font-size: 1.8rem;
@@ -15,6 +17,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: grey;
+  border-bottom: 1px solid white;
 }
 .header__logo .logo {
   text-decoration: none;
@@ -32,7 +35,6 @@ html {
   justify-content: space-between;
 }
 
-
 .header__nav .header__nav__link {
   text-decoration: none;
   color: grey;
@@ -40,12 +42,33 @@ html {
   padding: 1rem 2rem;
 }
 
-.section6 {
-    background: #C4C4C4;
-    height: 73.4rem;
+/* section 5 */
+.section5 {
+  height: 55rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
 }
 
+.section5__header {
+  font-size: 2.4rem;
+}
 
+.section5__video {
+  width: 50%;
+  height: 35rem;
+  background: white;
+}
+/* section6 */
+.section6 {
+  background: #c4c4c4;
+  height: 73.4rem;
+}
+
+/* footer */
 .footer {
   background-color: #ededed;
   height: 58rem;
