@@ -10,5 +10,35 @@ html {
 
 .footer {
     background-color: #EDEDED;
-    height: 580px;
+    height: 58rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav-ul {
+    margin: 2.4rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-nav-ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-social {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
 }
