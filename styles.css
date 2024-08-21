@@ -102,6 +102,28 @@ html {
 }
 
 /* section 2 */
+.section2 {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+}
+
+.section2__header {
+  font-size: 1.6rem;
+}
+.section2__gallery {
+  display: flex;
+  gap: 3rem;
+}
+.section2__gallery__img {
+  width: 14rem;
+  height: 11rem;
+  background-color: white;
+}
 
 /* section 3 */
 .section3 {
