@@ -79,6 +79,31 @@ html {
     align-items: center;
 }
 
+.section5 h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.section5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-item {
+    width: 14rem;
+}
+
+.grid-item-img {
+    width: 11.4rem;
+    height: 11.4rem;
+    border-radius: 50%;
+  }
+
+.grid-item-title {
+    font-size: 1.5rem;
+}
+
 /* section6 */
 .section6 {
   background: #c4c4c4;
