@@ -42,7 +42,11 @@ html {
   padding: 1rem 2rem;
 }
 
-/* section 5 */
+/* section 1 */
+
+/* section 2 */
+
+/* section 3 */
 .section3 {
   height: 55rem;
   display: flex;
@@ -62,6 +66,19 @@ html {
   height: 35rem;
   background: white;
 }
+
+/* section4 */
+
+/* section5 */
+.section5 {
+    background-color: #EDEDED;
+    height: 80.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* section6 */
 .section6 {
   background: #c4c4c4;
