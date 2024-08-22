@@ -233,7 +233,7 @@ html {
 
 /* section6 */
 .section6 {
-  background: #c4c4c4;
+  background: #84A98C;
   height: 73.4rem;
   text-align: center;
   display: flex;
@@ -242,43 +242,66 @@ html {
 }
 
 .section6 h2 {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   margin-bottom: 2rem;
 }
 
 .section6 p {
+  font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 
 .price-cards {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .price-card {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   height: 39.6rem;
   max-height: 39.6rem;
   width: 29.1rem;
+  border-radius: 5px;
 }
 
 .price-tag {
   padding: 2rem 4rem;
+  font-size: 2rem;
+  color: #2f3e46;;
 }
 
 .price-card-features {
   list-style: none;
+  font-size: 1.8rem;
+  color: #2f3e46;;
+}
+
+.price-card-image {
+  width: 90%;
+  border-radius: 10px;
 }
 
 .price-card-button {
   width: 90%;
-
-  padding: 1rem 0;
+  background-color: #ef7b45;
+  color: #2f3e46;
+  text-transform: uppercase;
+  padding: 1rem;
   border: none;
-  margin: auto 2rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.price-card-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #ef7b45;
+  color: #ef7b45;
+  transition: all 0.5s;
 }
 
 /* footer */
