@@ -438,13 +438,19 @@ html {
 /* footer */
 .footer {
   background-color: #2f3e46;
-  height: 40rem;
+  height: 50rem;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
 .footer-logo img {
   width: 30%;
 }
@@ -471,11 +477,15 @@ html {
 }
 
 .footer-nav-ul li a:hover {
-  background-color: #ffffff;
+  background-color: #cad2c5;
   color: #2f3e46;
 }
 .footer-socials {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+.footer-social {
+  width: 6rem;
+  height: 6rem;
 }
