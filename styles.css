@@ -21,7 +21,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: #2f3e46;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #cad2c5;
   position: fixed;
   top: 0;
 }
@@ -57,8 +57,14 @@ html {
 
 /* section 1 */
 .section1 {
-  background-color: #c4c4c4;
-  padding: 5rem;
+  background-image: linear-gradient(
+      to right top,
+      rgba(202, 210, 197, 0.2),
+      rgba(47, 62, 70, 0.8)
+    ),
+    url(images/hero_card_1.jpg);
+
+  padding: 7rem 5rem;
   height: 58rem;
   display: flex;
   justify-content: space-evenly;
@@ -70,23 +76,51 @@ html {
   flex-direction: column;
   background-color: #ededed;
   padding: 3rem 2rem;
+  box-shadow: 2rem 2rem 5rem #2f3e46;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(202, 210, 197, 0.9),
+    rgba(47, 62, 70, 0.8)
+  );
+  transition: all 1s;
+}
+
+.section1__card:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(47, 62, 70, 0.8),
+    rgba(202, 210, 197, 0.5)
+  );
+  transform: translate(-1rem, 1rem);
 }
 
 .section1__card__1 {
-  flex-basis: 40%;
+  flex-basis: 35%;
   justify-content: space-between;
+  gap: 3rem;
 }
 
 .section1__card__1 h3 {
   font-size: 1.6rem;
-  background-color: white;
+  background-color: #dfe4dc;
   padding: 1rem 2rem;
   width: fit-content;
+  color: #2f3e46;
+  transition: all 0.5s;
 }
+
 .section1__card__1__text {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  color: #2f3e46;
+}
+.section1__card__1__text p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  color: #182025;
+  font-weight: 300;
 }
 .section1__card__1__text h2 {
   font-size: 1.8rem;
@@ -97,11 +131,16 @@ html {
 
 .section1__card__link {
   text-decoration: none;
-  color: black;
+  color: #2f3e46;
   font-size: 1.6rem;
-  background-color: white;
-  padding: 1rem 2rem;
+  background-color: #ef7b45;
+  padding: 0.75rem 2rem;
   width: fit-content;
+  border-radius: 10px;
+  transition: all 0.8s;
+}
+.section1__card__link:hover {
+  transform: rotate(-10deg) translateX(1rem) scale(1.2);
 }
 .section1__card__2 {
   flex-basis: 20%;
@@ -111,7 +150,7 @@ html {
   justify-content: end;
   align-items: center;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 /* section 2 */
