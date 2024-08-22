@@ -24,6 +24,7 @@ html {
   border-bottom: 1px solid #cad2c5;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .main {
@@ -155,28 +156,88 @@ html {
 
 /* section 2 */
 .section2 {
-  height: 30rem;
+  height: 40rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
-  background-color: #ededed;
+  background-color: #2f3e46;
 }
 
-.section2__header {
-  font-size: 1.6rem;
+.section2 h2 {
+  font-size: 1.8rem;
+  color: #cad2c5;
 }
 .section2__gallery {
   display: flex;
   gap: 3rem;
 }
-.section2__gallery__img {
-  width: 14rem;
-  height: 11rem;
-  background-color: white;
+.section2__gallery__card {
+  width: 20rem;
+  height: 14rem;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
+.section2__gallery__card .card__side {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.section2__gallery__card .card__side__front img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* filter: grayscale(100%) contrast(0.9); */
+}
+.section2__gallery__card .card__side__back {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  background-color: #ffffff;
+  border: 5px solid #52796f;
+}
+.section2__gallery__card .card__side__back a {
+  text-decoration: none;
+  text-align: center;
+  color: #52796f;
+  font-size: 1.6rem;
+}
+
+.section2__gallery__card:hover .card__side__front {
+  transform: rotateY(-180deg);
+}
+.section2__gallery__card:hover .card__side__back {
+  transform: rotateY(0);
+}
+
+/* .section2__gallery__card .card__side__front::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.55;
+  background-image: linear-gradient(
+    45deg,
+    rgb(216, 243, 220),
+    rgb(64, 145, 108)
+  );
+} */
 /* section 3 */
 .section3 {
   height: 55rem;
@@ -322,7 +383,7 @@ html {
 
 /* footer */
 .footer {
-  background-color: #2F3E46;
+  background-color: #2f3e46;
   height: 40rem;
   text-align: center;
   display: flex;
@@ -357,8 +418,8 @@ html {
 
 .footer-nav-ul li a:hover {
   background-color: #ffffff;
-  color: #2F3E46;
-
+  color: #2f3e46;
+}
 .footer-socials {
   display: flex;
   justify-content: center;
