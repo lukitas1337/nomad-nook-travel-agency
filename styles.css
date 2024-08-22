@@ -201,8 +201,8 @@ html {
 /* section4 */
 
 .section4 {
-  background-color: #c4c4c4;
-  height: 80.8rem;
+  background-color: #2F3E46;
+  height: 60.8rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -210,29 +210,46 @@ html {
 }
 
 .section4 h2 {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.star {
+  width: 2.5rem;
 }
 
 .section4-text {
+  font-size: 1.6rem;
   margin-bottom: 5rem;
+  color: #ffffff;
 }
 
 .section4-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .section4-item {
   width: 16rem;
 }
 
+.section4-item-title {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
 .section4-item-img {
-  width: 10rem;
-  height: 10rem;
+  width: 14rem;
+  height: 14rem;
   border-radius: 50%;
+}
+
+.section4-item-text {
+  font-size: 1.4rem;
+  color: #ffffff;
 }
 
 /* section5 */
