@@ -332,24 +332,25 @@ html {
 
 /* section5 */
 .section5 {
-  background-color: #cad2c5;
-  height: 85.8rem;
+  background-color: #52796f;
+  height: 90rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10rem 0;
 }
 
 .section5 h2 {
-  font-size: 3.4rem;
+  font-size: 1.8rem;
   margin-bottom: 5rem;
-  color: #2f3e46;
+  color: white;
 }
 
 .section5-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 4rem;
+  gap: 5rem;
 }
 
 .grid-item {
@@ -360,24 +361,25 @@ html {
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
+  border: 2px solid white;
   margin-bottom: 2rem;
 }
 
 .grid-item-title {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
-  color: #2f3e46;
+  color: #cad2c5;
 }
 
 .grid-item-text {
-  font-size: 1.3rem;
-  color: #2f3e46;
+  font-size: 1.4rem;
+  color: #cad2c5;
 }
 
 /* section6 */
 .section6 {
   background: #84a98c;
-  height: 73.4rem;
+  height: 75rem;
   text-align: center;
   display: flex;
   justify-content: center;
