@@ -254,8 +254,8 @@ html {
 
 /* section5 */
 .section5 {
-  background-color: #ededed;
-  height: 80.8rem;
+  background-color: #CAD2C5;
+  height: 85.8rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -263,28 +263,37 @@ html {
 }
 
 .section5 h2 {
-  font-size: 2.4rem;
-  margin-bottom: 2rem;
+  font-size: 3.4rem;
+  margin-bottom: 5rem;
+  color: #2F3E46;
 }
 
 .section5-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .grid-item {
-  width: 14rem;
+  width: 20rem;
 }
 
 .grid-item-img {
-  width: 11.4rem;
-  height: 11.4rem;
+  width: 18rem;
+  height: 18rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 .grid-item-title {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #2F3E46;
+}
+
+.grid-item-text {
+  font-size: 1.3rem;
+  color: #2F3E46;
 }
 
 /* section6 */
