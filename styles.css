@@ -111,6 +111,7 @@ html {
   flex-basis: 35%;
   justify-content: space-between;
   gap: 3rem;
+  border-radius: 5px;
 }
 
 .section1__card__1 h3 {
@@ -147,6 +148,7 @@ html {
   color: #2f3e46;
   font-size: 1.6rem;
   background-color: #ef7b45;
+  text-transform: uppercase;
   padding: 0.75rem 2rem;
   width: fit-content;
   border-radius: 10px;
@@ -163,7 +165,13 @@ html {
   justify-content: end;
   align-items: center;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 5px;
+}
+
+.section1__card__2__img {
+  width: 20rem;
+  height: 14rem;
+  border-radius: 5px;
 }
 
 /* section 2 */
