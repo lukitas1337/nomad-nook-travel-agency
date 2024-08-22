@@ -243,10 +243,11 @@ html {
   height: 55rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #354f52;
+  color: white;
 }
 
 .section3__header {
@@ -254,15 +255,19 @@ html {
 }
 
 .section3__video {
-  width: 50%;
   height: 35rem;
   background: white;
 }
 
+.section3__video video {
+  border: 4px solid white;
+  box-shadow: 1.25rem 1.5rem 5rem #2f3e46;
+  height: 35rem;
+}
 /* section4 */
 
 .section4 {
-  background-color: #2F3E46;
+  background-color: #2f3e46;
   height: 60.8rem;
   text-align: center;
   display: flex;
@@ -315,7 +320,7 @@ html {
 
 /* section5 */
 .section5 {
-  background-color: #CAD2C5;
+  background-color: #cad2c5;
   height: 85.8rem;
   text-align: center;
   display: flex;
@@ -326,7 +331,7 @@ html {
 .section5 h2 {
   font-size: 3.4rem;
   margin-bottom: 5rem;
-  color: #2F3E46;
+  color: #2f3e46;
 }
 
 .section5-grid {
@@ -349,17 +354,17 @@ html {
 .grid-item-title {
   font-size: 2.2rem;
   margin-bottom: 1rem;
-  color: #2F3E46;
+  color: #2f3e46;
 }
 
 .grid-item-text {
   font-size: 1.3rem;
-  color: #2F3E46;
+  color: #2f3e46;
 }
 
 /* section6 */
 .section6 {
-  background: #84A98C;
+  background: #84a98c;
   height: 73.4rem;
   text-align: center;
   display: flex;
@@ -398,13 +403,13 @@ html {
 .price-tag {
   padding: 2rem 4rem;
   font-size: 2rem;
-  color: #2f3e46;;
+  color: #2f3e46;
 }
 
 .price-card-features {
   list-style: none;
   font-size: 1.8rem;
-  color: #2f3e46;;
+  color: #2f3e46;
 }
 
 .price-card-image {
